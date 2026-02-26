@@ -2,7 +2,7 @@
 const AUTH_BASE = "https://login.mypurecloud.ie";
 const API_BASE = "https://api.mypurecloud.ie";
 
-// Vercel serverless function memory cache (best-effort; not guaranteed across cold starts)
+
 let cachedToken = null;
 let tokenExpiresAt = 0;
 
